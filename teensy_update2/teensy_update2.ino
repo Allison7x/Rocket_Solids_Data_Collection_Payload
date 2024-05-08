@@ -121,7 +121,6 @@ void loop() {
   readings[index][10] = lis3mdl.y;
   readings[index][11] = lis3mdl.z;
   readings[index][12] = pressure_event.pressure;
-  // readings[index][12]= pressure;
 
   
   // Increment index
